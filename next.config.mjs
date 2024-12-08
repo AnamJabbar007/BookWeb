@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+// next.config.mjs
+const nextConfig = {
+    images: {
+      domains: ['books.google.com'], // Allow images from books.google.com
+    },
+  };
+  
+  export default nextConfig;
+  
